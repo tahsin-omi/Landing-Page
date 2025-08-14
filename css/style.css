@@ -1,8 +1,9 @@
 body{
-    margin:0;
+    margin:0 auto;
     padding:0;
      overflow-x: hidden;
      box-sizing: border-box;
+     max-width: 1440px;
 }
 
 :root{
@@ -17,6 +18,21 @@ body{
 }
 .navbar-brand img {
   height: 30px;
+}
+
+.banner-title{
+  font-size: 64px;
+  line-height: 76px;
+  font-weight: 600;
+}
+
+.banner-title-color {
+  color: #4CAF4F;
+}
+
+.banner-image {
+  width: 400px;
+  height: 400px;
 }
 
 .navbar-nav {
@@ -52,7 +68,10 @@ body{
     background-color: #F5F7FA;
 }
 .row1{
-    padding-top: 100px;
+    /* padding-top: 100px; */
+    height: 600px;
+    padding-left: 55px;
+    padding-right: 55px;
 }
 
 
@@ -356,8 +375,8 @@ padding-right: 30px;
 
 @media (max-width: 576px) {
   .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
   }
 
   #section5{
